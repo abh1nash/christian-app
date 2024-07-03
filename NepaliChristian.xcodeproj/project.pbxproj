@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		419C5FE02C34FF2000BECC46 /* NepaliChristian Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419C5FDF2C34FF2000BECC46 /* NepaliChristian Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		418488432C355C2700508564 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488422C355C2700508564 /* SongView.swift */; };
+		419C5FE02C34FF2000BECC46 /* Nepali Christian App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		419C5FE52C34FF2000BECC46 /* NepaliChristianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */; };
-		419C5FE72C34FF2000BECC46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FE62C34FF2000BECC46 /* ContentView.swift */; };
 		419C5FE92C34FF2200BECC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419C5FE82C34FF2200BECC46 /* Assets.xcassets */; };
 		419C5FEC2C34FF2200BECC46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419C5FEB2C34FF2200BECC46 /* Preview Assets.xcassets */; };
+		419C5FFB2C35065200BECC46 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FFA2C35065200BECC46 /* HomeView.swift */; };
+		419C60002C352DEB00BECC46 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FFF2C352DEB00BECC46 /* Song.swift */; };
+		419C60032C353CCB00BECC46 /* songs.json in Resources */ = {isa = PBXBuildFile; fileRef = 419C60022C353CCB00BECC46 /* songs.json */; };
+		419C60052C353CF600BECC46 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C60042C353CF600BECC46 /* ModelData.swift */; };
+		419C60082C3543C500BECC46 /* SongsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C60072C3543C500BECC46 /* SongsListView.swift */; };
+		419C600C2C3547DE00BECC46 /* OrderedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 419C600B2C3547DE00BECC46 /* OrderedCollections */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				419C5FE02C34FF2000BECC46 /* NepaliChristian Watch App.app in Embed Watch Content */,
+				419C5FE02C34FF2000BECC46 /* Nepali Christian App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,12 +45,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		418488422C355C2700508564 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		419C5FD92C34FF2000BECC46 /* NepaliChristian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepaliChristian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		419C5FDF2C34FF2000BECC46 /* NepaliChristian Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NepaliChristian Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali Christian App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliChristianApp.swift; sourceTree = "<group>"; };
-		419C5FE62C34FF2000BECC46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		419C5FE82C34FF2200BECC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419C5FEB2C34FF2200BECC46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		419C5FFA2C35065200BECC46 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		419C5FFF2C352DEB00BECC46 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		419C60022C353CCB00BECC46 /* songs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = songs.json; sourceTree = "<group>"; };
+		419C60042C353CF600BECC46 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		419C60072C3543C500BECC46 /* SongsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419C600C2C3547DE00BECC46 /* OrderedCollections in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 			children = (
 				419C5FE32C34FF2000BECC46 /* NepaliChristian Watch App */,
 				419C5FDA2C34FF2000BECC46 /* Products */,
+				419C600A2C3547DE00BECC46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				419C5FD92C34FF2000BECC46 /* NepaliChristian.app */,
-				419C5FDF2C34FF2000BECC46 /* NepaliChristian Watch App.app */,
+				419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +91,10 @@
 		419C5FE32C34FF2000BECC46 /* NepaliChristian Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				419C60012C353CB400BECC46 /* Data */,
+				419C5FFC2C352DBF00BECC46 /* Models */,
+				419C5FF62C35038900BECC46 /* Views */,
 				419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */,
-				419C5FE62C34FF2000BECC46 /* ContentView.swift */,
 				419C5FE82C34FF2200BECC46 /* Assets.xcassets */,
 				419C5FEA2C34FF2200BECC46 /* Preview Content */,
 			);
@@ -92,6 +107,56 @@
 				419C5FEB2C34FF2200BECC46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		419C5FF62C35038900BECC46 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				419C60062C3543AB00BECC46 /* Songs */,
+				419C5FF72C35039800BECC46 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		419C5FF72C35039800BECC46 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				419C5FFA2C35065200BECC46 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		419C5FFC2C352DBF00BECC46 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				419C5FFF2C352DEB00BECC46 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		419C60012C353CB400BECC46 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				419C60022C353CCB00BECC46 /* songs.json */,
+				419C60042C353CF600BECC46 /* ModelData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		419C60062C3543AB00BECC46 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				419C60072C3543C500BECC46 /* SongsListView.swift */,
+				418488422C355C2700508564 /* SongView.swift */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		419C600A2C3547DE00BECC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +192,11 @@
 			dependencies = (
 			);
 			name = "NepaliChristian Watch App";
+			packageProductDependencies = (
+				419C600B2C3547DE00BECC46 /* OrderedCollections */,
+			);
 			productName = "NepaliChristian Watch App";
-			productReference = 419C5FDF2C34FF2000BECC46 /* NepaliChristian Watch App.app */;
+			productReference = 419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -158,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 419C5FD22C34FF1F00BECC46;
+			packageReferences = (
+				419C60092C3547A400BECC46 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 419C5FDA2C34FF2000BECC46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -182,6 +253,7 @@
 			files = (
 				419C5FEC2C34FF2200BECC46 /* Preview Assets.xcassets in Resources */,
 				419C5FE92C34FF2200BECC46 /* Assets.xcassets in Resources */,
+				419C60032C353CCB00BECC46 /* songs.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				419C5FE72C34FF2000BECC46 /* ContentView.swift in Sources */,
+				419C60002C352DEB00BECC46 /* Song.swift in Sources */,
+				419C60052C353CF600BECC46 /* ModelData.swift in Sources */,
+				419C60082C3543C500BECC46 /* SongsListView.swift in Sources */,
+				418488432C355C2700508564 /* SongView.swift in Sources */,
 				419C5FE52C34FF2000BECC46 /* NepaliChristianApp.swift in Sources */,
+				419C5FFB2C35065200BECC46 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +409,6 @@
 				DEVELOPMENT_TEAM = VCAHK52V69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = NepaliChristian;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +417,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nepali Christian App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -363,7 +438,6 @@
 				DEVELOPMENT_TEAM = VCAHK52V69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = NepaliChristian;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,7 +446,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Nepali Christian App";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -447,6 +521,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		419C60092C3547A400BECC46 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		419C600B2C3547DE00BECC46 /* OrderedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 419C60092C3547A400BECC46 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = OrderedCollections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 419C5FD32C34FF1F00BECC46 /* Project object */;
 }
