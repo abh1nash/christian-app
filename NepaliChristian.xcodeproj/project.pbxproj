@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4104FDC02C3FD9B100FBF4A9 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104FDBF2C3FD9B100FBF4A9 /* NumberInput.swift */; };
 		418488432C355C2700508564 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488422C355C2700508564 /* SongView.swift */; };
 		419C5FE02C34FF2000BECC46 /* Nepali Christian App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		419C5FE52C34FF2000BECC46 /* NepaliChristianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4104FDBF2C3FD9B100FBF4A9 /* NumberInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
 		418488422C355C2700508564 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		419C5FD92C34FF2000BECC46 /* NepaliChristian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepaliChristian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali Christian App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4104FDBE2C3FD99500FBF4A9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4104FDBF2C3FD9B100FBF4A9 /* NumberInput.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		419C5FD22C34FF1F00BECC46 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		419C5FF62C35038900BECC46 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4104FDBE2C3FD99500FBF4A9 /* Common */,
 				419C60062C3543AB00BECC46 /* Songs */,
 				419C5FF72C35039800BECC46 /* Home */,
 			);
@@ -269,6 +280,7 @@
 				419C60082C3543C500BECC46 /* SongsListView.swift in Sources */,
 				418488432C355C2700508564 /* SongView.swift in Sources */,
 				419C5FE52C34FF2000BECC46 /* NepaliChristianApp.swift in Sources */,
+				4104FDC02C3FD9B100FBF4A9 /* NumberInput.swift in Sources */,
 				419C5FFB2C35065200BECC46 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
