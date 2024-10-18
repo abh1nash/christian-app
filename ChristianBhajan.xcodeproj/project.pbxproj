@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4104FDC02C3FD9B100FBF4A9 /* NumberInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4104FDBF2C3FD9B100FBF4A9 /* NumberInput.swift */; };
 		418488432C355C2700508564 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418488422C355C2700508564 /* SongView.swift */; };
-		419C5FE02C34FF2000BECC46 /* Nepali Christian App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		419C5FE02C34FF2000BECC46 /* Christian Bhajan.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 419C5FDF2C34FF2000BECC46 /* Christian Bhajan.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		419C5FE52C34FF2000BECC46 /* NepaliChristianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */; };
 		419C5FE92C34FF2200BECC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419C5FE82C34FF2200BECC46 /* Assets.xcassets */; };
 		419C5FEC2C34FF2200BECC46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 419C5FEB2C34FF2200BECC46 /* Preview Assets.xcassets */; };
@@ -38,7 +38,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				419C5FE02C34FF2000BECC46 /* Nepali Christian App.app in Embed Watch Content */,
+				419C5FE02C34FF2000BECC46 /* Christian Bhajan.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,8 +48,8 @@
 /* Begin PBXFileReference section */
 		4104FDBF2C3FD9B100FBF4A9 /* NumberInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInput.swift; sourceTree = "<group>"; };
 		418488422C355C2700508564 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
-		419C5FD92C34FF2000BECC46 /* NepaliChristian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NepaliChristian.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali Christian App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		419C5FD92C34FF2000BECC46 /* ChristianBhajan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristianBhajan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		419C5FDF2C34FF2000BECC46 /* Christian Bhajan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Christian Bhajan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		419C5FE42C34FF2000BECC46 /* NepaliChristianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NepaliChristianApp.swift; sourceTree = "<group>"; };
 		419C5FE82C34FF2200BECC46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		419C5FEB2C34FF2200BECC46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		419C5FDA2C34FF2000BECC46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				419C5FD92C34FF2000BECC46 /* NepaliChristian.app */,
-				419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */,
+				419C5FD92C34FF2000BECC46 /* ChristianBhajan.app */,
+				419C5FDF2C34FF2000BECC46 /* Christian Bhajan.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		419C5FD82C34FF2000BECC46 /* NepaliChristian */ = {
+		419C5FD82C34FF2000BECC46 /* ChristianBhajan */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 419C5FF32C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "NepaliChristian" */;
+			buildConfigurationList = 419C5FF32C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "ChristianBhajan" */;
 			buildPhases = (
 				419C5FD72C34FF2000BECC46 /* Resources */,
 				419C5FF22C34FF2200BECC46 /* Embed Watch Content */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				419C5FE22C34FF2000BECC46 /* PBXTargetDependency */,
 			);
-			name = NepaliChristian;
+			name = ChristianBhajan;
 			productName = NepaliChristian;
-			productReference = 419C5FD92C34FF2000BECC46 /* NepaliChristian.app */;
+			productReference = 419C5FD92C34FF2000BECC46 /* ChristianBhajan.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		419C5FDE2C34FF2000BECC46 /* NepaliChristian Watch App */ = {
+		419C5FDE2C34FF2000BECC46 /* ChristianBhajan Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 419C5FEF2C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "NepaliChristian Watch App" */;
+			buildConfigurationList = 419C5FEF2C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "ChristianBhajan Watch App" */;
 			buildPhases = (
 				419C5FDB2C34FF2000BECC46 /* Sources */,
 				419C5FDC2C34FF2000BECC46 /* Frameworks */,
@@ -202,12 +202,12 @@
 			);
 			dependencies = (
 			);
-			name = "NepaliChristian Watch App";
+			name = "ChristianBhajan Watch App";
 			packageProductDependencies = (
 				419C600B2C3547DE00BECC46 /* OrderedCollections */,
 			);
 			productName = "NepaliChristian Watch App";
-			productReference = 419C5FDF2C34FF2000BECC46 /* Nepali Christian App.app */;
+			productReference = 419C5FDF2C34FF2000BECC46 /* Christian Bhajan.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 419C5FD62C34FF1F00BECC46 /* Build configuration list for PBXProject "NepaliChristian" */;
+			buildConfigurationList = 419C5FD62C34FF1F00BECC46 /* Build configuration list for PBXProject "ChristianBhajan" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,8 +244,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				419C5FD82C34FF2000BECC46 /* NepaliChristian */,
-				419C5FDE2C34FF2000BECC46 /* NepaliChristian Watch App */,
+				419C5FD82C34FF2000BECC46 /* ChristianBhajan */,
+				419C5FDE2C34FF2000BECC46 /* ChristianBhajan Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -290,7 +290,7 @@
 /* Begin PBXTargetDependency section */
 		419C5FE22C34FF2000BECC46 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 419C5FDE2C34FF2000BECC46 /* NepaliChristian Watch App */;
+			target = 419C5FDE2C34FF2000BECC46 /* ChristianBhajan Watch App */;
 			targetProxy = 419C5FE12C34FF2000BECC46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,9 +418,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NepaliChristian Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = VCAHK52V69;
+				DEVELOPMENT_TEAM = HY6R8F84V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christian Bhajan";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,8 +429,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian.watchkitapp;
-				PRODUCT_NAME = "Nepali Christian App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neumosys.christianbhajan.watchkitapp;
+				PRODUCT_NAME = "Christian Bhajan";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -447,9 +448,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NepaliChristian Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = VCAHK52V69;
+				DEVELOPMENT_TEAM = HY6R8F84V3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christian Bhajan";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,8 +459,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian.watchkitapp;
-				PRODUCT_NAME = "Nepali Christian App";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neumosys.christianbhajan.watchkitapp;
+				PRODUCT_NAME = "Christian Bhajan";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -475,10 +477,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VCAHK52V69;
-				INFOPLIST_KEY_CFBundleDisplayName = NepaliChristian;
+				DEVELOPMENT_TEAM = HY6R8F84V3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christian Bhajan";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neumosys.christianbhajan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -491,10 +493,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VCAHK52V69;
-				INFOPLIST_KEY_CFBundleDisplayName = NepaliChristian;
+				DEVELOPMENT_TEAM = HY6R8F84V3;
+				INFOPLIST_KEY_CFBundleDisplayName = "Christian Bhajan";
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = abhinash.NepaliChristian;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neumosys.christianbhajan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -505,7 +507,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		419C5FD62C34FF1F00BECC46 /* Build configuration list for PBXProject "NepaliChristian" */ = {
+		419C5FD62C34FF1F00BECC46 /* Build configuration list for PBXProject "ChristianBhajan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				419C5FED2C34FF2200BECC46 /* Debug */,
@@ -514,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		419C5FEF2C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "NepaliChristian Watch App" */ = {
+		419C5FEF2C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "ChristianBhajan Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				419C5FF02C34FF2200BECC46 /* Debug */,
@@ -523,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		419C5FF32C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "NepaliChristian" */ = {
+		419C5FF32C34FF2200BECC46 /* Build configuration list for PBXNativeTarget "ChristianBhajan" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				419C5FF42C34FF2200BECC46 /* Debug */,
